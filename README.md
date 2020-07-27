@@ -1,11 +1,44 @@
 # SaccadeVR-mobile:
 
-A software package on Unity to use HTC VIVE Pro Eye, a head-mounted display with virtual reality technology, for assessment of saccadic eye movement.
+A software package of Unity to use HTC VIVE Pro Eye, a head-mounted display with virtual reality technology, for assessment of saccadic eye movement.
 
 
-## Installation:
+## System set-up
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+###### Software version
+The following software is used for the measurement system.
+- Unity: 2019.2.5f1
+- Steam VR: 1.11.11
+- SRanipal, a software development kit for eye tracking provided by HTC: 1.1.0.1
+- SR Runtim: 1.1.2.0
+
+###### Set-up procedures
+1. Open the folder of **SaccadeVR_ViveProEye** on Unity.
+2. Go to Building Settings --> Player Settings --> Player --> XR Settings. Click *Virtual Reality Supported* to enable the VR configuration.
+3. Start playing for the measurement.
+
+
+## Files
+###### Saccade_measure_rev1.cs
+C# programming file to configure the measurement system. The file is found SaccadeVR_ViveProEye --> Assets --> Scripts.
+
+###### DisableTracking.cs
+C# programming file to disable the tracking of head movement of the VR headset. If the tracking is active, the position of the stimuli targets for saccade measurement changes when the user moves the head.
+
+###### StandardSaccade_IDnumber.txt
+Data of eye movement are recorded in this text file. The text file is created under the folder of **SaccadeVR_ViveProEye**
+The measured parameters include
+- Frame sequence
+- Timestamp (ms)
+- Gaze origin (mm)
+- Gaze direction (normalised to between -1 and 1)
+- Pupil position (normalised to between 0 and 1)
+- Pupil diameter (mm)
+- Eye openness (normalised to between 0 and 1)
+- Validity of eye data
+
+###### Saccade_Start_Time_IDnumber.txt
+Unixtime of the computer is recorded in this text file when the saccade task starts in each saccade trial. With the recorded time, the latency (response time) of saccadic eye movement is calculated.
 
 
 ## Summary of programming algorithm:
@@ -14,7 +47,7 @@ The following diagram explains the programming algorithm to measure saccadic eye
 
 <img src="Image/Saccade_VR_programme_algorithm.jpg" width="70%">
 
-The sample design of VR is shown below.
+A sample VR design for the measurement of saccadic eye movement 
 
 <img src="Image/Saccade_VR_sample.gif" width="70%">
 
