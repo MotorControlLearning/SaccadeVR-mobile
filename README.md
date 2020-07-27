@@ -23,7 +23,7 @@ The following software is used for the measurement system.
 C# programming file to configure the measurement system. The file is found SaccadeVR_ViveProEye --> Assets --> Scripts.
 
 ###### DisableTracking.cs
-C# programming file to disable the tracking of head movement of the VR headset. If the tracking is active, the position of the stimuli targets for saccade measurement changes when the user moves the head.
+C# programming file to disable the tracking of head movement of the VR headset. If the tracking is active, the position of the stimuli targets for saccade measurement changes when the user moves the head. The file is found SaccadeVR_ViveProEye --> Assets --> Scripts.
 
 ###### StandardSaccade_IDnumber.txt
 Data of eye movement are recorded in this text file. The text file is created under the folder of **SaccadeVR_ViveProEye**
