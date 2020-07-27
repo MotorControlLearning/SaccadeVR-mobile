@@ -14,6 +14,10 @@ The following diagram explains the programming algorithm to measure saccadic eye
 
 <img src="Image/Saccade_VR_programme_algorithm.jpg" width="70%">
 
+The sample design of VR is shown below.
+
+<img src="Image/Saccade_VR_sample.gif" width="70%">
+
 
 ## Code contributors:
 
