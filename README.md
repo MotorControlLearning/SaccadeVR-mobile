@@ -54,7 +54,7 @@ A sample VR design for the measurement of saccadic eye movement
 
 ## Code contributors:
 
-The code was originally developed by [Yu Imaoka](https://github.com/imarin18) and Andri Flury.
+The code was originally developed by [Yu Imaoka](https://github.com/imarin18) and [Andri Flury](https://github.com/Dawabenelona).
 
 
 ## License:
