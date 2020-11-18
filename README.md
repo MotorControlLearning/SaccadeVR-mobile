@@ -17,7 +17,7 @@ The following software is used for the measurement system.
 1. Open the folder of **SaccadeVR_ViveProEye** on Unity.
 2. Go to Building Settings --> Player Settings --> Player --> XR Settings. Click *Virtual Reality Supported* to enable the VR configuration.
 3. Start playing for the measurement.
-
+- Please be noted that you will see Unity frozen if you click the stop button on Unity. Unity seems to be frozen in this situation because the sampling of eye tracking is still working on the background. As explained in the following algorithm flow chart, the sampling of eye tracking works independently from Unity. The playing of Unity is stopped automatically when all the saccade tasks are completed. We set the maximum sampling number of eye tracking to 120 Hz * 1800 seconds in line# 175: **private const int maxframe_count = 120 * 1800;**. The maximum number can be adjusted accordingly.
 
 ## Files
 ###### Saccade_measure_rev1.cs
