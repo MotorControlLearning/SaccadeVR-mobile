@@ -5,6 +5,7 @@ Please cite [us](https://www.frontiersin.org/articles/10.3389/fpsyt.2020.572938/
 
 "Assessing Saccadic Eye Movements With Head-Mounted Display Virtual Reality Technology"
 https://doi.org/10.3389/fpsyt.2020.572938
+https://doi.org/10.5905/ethz-1007-511 
 
 
 ## System set-up
