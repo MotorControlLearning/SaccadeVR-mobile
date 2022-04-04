@@ -3,8 +3,8 @@
 A software package of Unity to use HTC VIVE Pro Eye, a head-mounted display with virtual reality technology, for assessment of saccadic eye movement.
 Please cite [us](https://www.frontiersin.org/articles/10.3389/fpsyt.2020.572938/) when you refer to the package!
 
-"Assessing Saccadic Eye Movements With Head-Mounted Display Virtual Reality Technology"
-https://doi.org/10.3389/fpsyt.2020.572938
+"Assessing Saccadic Eye Movements With Head-Mounted Display Virtual Reality Technology"<br/>
+https://doi.org/10.3389/fpsyt.2020.572938<br/>
 https://doi.org/10.5905/ethz-1007-511 
 
 
