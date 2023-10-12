@@ -14,8 +14,22 @@ https://doi.org/10.5905/ethz-1007-511
 The following software is used for the measurement system.
 - Unity: 2019.2.5f1
 - Steam VR: 1.11.11
-- SRanipal, a software development kit for eye tracking provided by HTC: 1.1.0.1
+- SRanipal, a software development kit (SDK) for eye tracking provided by HTC: 1.1.0.1
 - SR Runtim: 1.1.2.0
+  
+###### <Update on the 18th of August 2023>
+We confirmed that the system also works with the following updated software versions.
+- [Eye and Facial Tracking SDK](https://developer.vive.com/resources/vive-sense/eye-and-facial-tracking-sdk/): 1.3.6.8
+- SR Runtime: 1.3.6.11
+- Eye camera: 2.41.0-942e3e
+- (steamVR is downloaded during the setup of VIVE Pro Eye)
+- Since “the firmware is updating” message keeps appearing, the following files needs to be updated or the eye tracker needs to be activated in steam VR (please refer to the captured image below).
+  File: C/Users/[user name]/AppData/LocalLow/HTC Corporation/SR_Config/SRanipalConfig.ini
+        C/Users/[user name]/AppData/LocalLow/HTC Corporation/SR_Config/SRanipal_Config/SRanipalConfig.ini 
+  EnableRuntimeAutoUpdate = 0
+  EnableFirmwareAutoUpdate = 0
+
+  <img width="443" alt="image" src="https://github.com/MotorControlLearning/SaccadeVR-mobile/assets/68739859/a38671b5-103c-4cb0-b5df-1071462c71dc">
 
 ###### Set-up procedures
 1. Open the folder of **SaccadeVR_ViveProEye** on Unity.
