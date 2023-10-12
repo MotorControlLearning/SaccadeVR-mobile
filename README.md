@@ -17,7 +17,7 @@ The following software is used for the measurement system.
 - SRanipal, a software development kit (SDK) for eye tracking provided by HTC: 1.1.0.1
 - SR Runtim: 1.1.2.0
   
-***<Update on the 18th of August 2023>***
+***<Update on the 18th of August 2023>*** <br />
 We confirmed that the system also works with the following updated software versions.
 - [Eye and Facial Tracking SDK](https://developer.vive.com/resources/vive-sense/eye-and-facial-tracking-sdk/): 1.3.6.8
 - SR Runtime: 1.3.6.11
